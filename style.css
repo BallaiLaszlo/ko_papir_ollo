@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(236, 183, 238);
+}
+.cím{
+    text-align: center;
+}
+
+.playground {
+  position: relative;
+  padding: 1%;
+  text-align: center;
+}
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .buttons button {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+    border: 2px solid #000;
+    width: 200px; 
+    height: 200px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #rock {
+    background-image: url("https://media.tenor.com/xRIiOKm3GCsAAAAi/%D0%BF%D1%80%D0%BF.gif");
+  }
+  
+  #paper {
+    background-image: url("https://images.meesho.com/images/products/107122392/ff18b_512.webp");
+  }
+  
+  #scissors {
+    background-image: url("https://i.redd.it/zkf5jfp0ul441.png");
+  }
+  
+  @media (max-width: 768px) {
+    .buttons {
+      display: flex;
+      flex-direction: row; 
+      justify-content: center; 
+    }
+    
+    .buttons button {
+      width: 80px; 
+      height: 80px; 
+      font-size: 14px;
+    }
+  }
+.info {
+    padding: 10px;
+    text-align: center; 
+    font-size: larger;
+  }
+  
+  .info p {
+    display: inline; 
+    margin: 0;
+    padding: 10px; 
+  }
+
+  @media (max-width: 768px) {
+    .info p {
+      display: block; 
+      text-align: center; 
+    }
+  }
